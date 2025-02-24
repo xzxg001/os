@@ -3,4 +3,4 @@
 
 `ostep-homework`包含了作业的具体要求和代码
 
-`lab`中包含了lab1-lab9的实验代码,lab9为最终实验的完整代码,其中每一实验实验要求在[os2024实验]('https://os2024lab.readthedocs.io/zh-cn/latest/intro/index.html),本人实现的实验报告和简单解释在csdn网站上[xzxg's os lab]('https://blog.csdn.net/xzxg001/category_12707503.html?spm=1001.2014.3001.5482')
+`lab`中包含了lab1-lab9的实验代码,lab9为最终实验的完整代码,其中每一实验实验要求在https://os2024lab.readthedocs.io/zh-cn/latest/intro/index.html,本人实现的实验报告和简单解释在csdn网站上https://blog.csdn.net/xzxg001/category_12707503.html?spm=1001.2014.3001.5482
