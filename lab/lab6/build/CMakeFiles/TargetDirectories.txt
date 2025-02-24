@@ -1,0 +1,17 @@
+/home/zlz/lab6-z/build/CMakeFiles/miniEuler.dir
+/home/zlz/lab6-z/build/CMakeFiles/edit_cache.dir
+/home/zlz/lab6-z/build/CMakeFiles/rebuild_cache.dir
+/home/zlz/lab6-z/build/bsp/CMakeFiles/bsp.dir
+/home/zlz/lab6-z/build/bsp/CMakeFiles/edit_cache.dir
+/home/zlz/lab6-z/build/bsp/CMakeFiles/rebuild_cache.dir
+/home/zlz/lab6-z/build/kernel/CMakeFiles/edit_cache.dir
+/home/zlz/lab6-z/build/kernel/CMakeFiles/rebuild_cache.dir
+/home/zlz/lab6-z/build/kernel/tick/CMakeFiles/tick.dir
+/home/zlz/lab6-z/build/kernel/tick/CMakeFiles/edit_cache.dir
+/home/zlz/lab6-z/build/kernel/tick/CMakeFiles/rebuild_cache.dir
+/home/zlz/lab6-z/build/kernel/sched/CMakeFiles/sched.dir
+/home/zlz/lab6-z/build/kernel/sched/CMakeFiles/edit_cache.dir
+/home/zlz/lab6-z/build/kernel/sched/CMakeFiles/rebuild_cache.dir
+/home/zlz/lab6-z/build/kernel/task/CMakeFiles/task.dir
+/home/zlz/lab6-z/build/kernel/task/CMakeFiles/edit_cache.dir
+/home/zlz/lab6-z/build/kernel/task/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,24 @@
+kernel/sem/CMakeFiles/sem.dir/prt_sem_init.c.obj: \
+ /home/zlz/lab8/src/kernel/sem/prt_sem_init.c \
+ /home/zlz/lab8/src/include/prt_sem_external.h \
+ /home/zlz/lab8/src/include/prt_sem.h \
+ /home/zlz/lab8/src/include/prt_module.h \
+ /home/zlz/lab8/src/include/prt_errno.h \
+ /home/zlz/lab8/src/include/prt_typedef.h \
+ /home/zlz/aarch64-none-elf/gcc-arm-11.2-2022.02-x86_64-aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1/include/stddef.h \
+ /home/zlz/aarch64-none-elf/gcc-arm-11.2-2022.02-x86_64-aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1/include/stdint.h \
+ /home/zlz/aarch64-none-elf/gcc-arm-11.2-2022.02-x86_64-aarch64-none-elf/aarch64-none-elf/include/stdint.h \
+ /home/zlz/aarch64-none-elf/gcc-arm-11.2-2022.02-x86_64-aarch64-none-elf/aarch64-none-elf/include/machine/_default_types.h \
+ /home/zlz/aarch64-none-elf/gcc-arm-11.2-2022.02-x86_64-aarch64-none-elf/aarch64-none-elf/include/sys/features.h \
+ /home/zlz/aarch64-none-elf/gcc-arm-11.2-2022.02-x86_64-aarch64-none-elf/aarch64-none-elf/include/_newlib_version.h \
+ /home/zlz/aarch64-none-elf/gcc-arm-11.2-2022.02-x86_64-aarch64-none-elf/aarch64-none-elf/include/sys/_intsup.h \
+ /home/zlz/aarch64-none-elf/gcc-arm-11.2-2022.02-x86_64-aarch64-none-elf/aarch64-none-elf/include/sys/_stdint.h \
+ /home/zlz/aarch64-none-elf/gcc-arm-11.2-2022.02-x86_64-aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1/include/stdbool.h \
+ /home/zlz/lab8/src/include/prt_task_external.h \
+ /home/zlz/lab8/src/include/prt_task.h \
+ /home/zlz/lab8/src/bsp/os_cpu_armv8.h \
+ /home/zlz/lab8/src/include/prt_typedef.h \
+ /home/zlz/lab8/src/include/list_types.h \
+ /home/zlz/lab8/src/include/prt_list_external.h \
+ /home/zlz/lab8/src/bsp/os_attr_armv8_external.h \
+ /home/zlz/lab8/src/bsp/os_cpu_armv8_external.h

@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "prt_typedef.h": "c",
+        "os_cpu_armv8_external.h": "c"
+    }
+}

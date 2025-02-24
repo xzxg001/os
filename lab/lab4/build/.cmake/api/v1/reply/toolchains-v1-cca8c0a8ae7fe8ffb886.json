@@ -1,0 +1,66 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : {},
+				"path" : "/home/zlz/aarch64-none-elf/bin/aarch64-none-elf-gcc",
+				"version" : ""
+			},
+			"language" : "ASM",
+			"sourceFileExtensions" : 
+			[
+				"s",
+				"S",
+				"asm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/home/zlz/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1/include",
+						"/home/zlz/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1/include-fixed",
+						"/home/zlz/aarch64-none-elf/aarch64-none-elf/include"
+					],
+					"linkDirectories" : 
+					[
+						"/home/zlz/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1",
+						"/home/zlz/aarch64-none-elf/lib/gcc",
+						"/home/zlz/aarch64-none-elf/aarch64-none-elf/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gcc",
+						"c",
+						"gcc",
+						"gcc",
+						"c",
+						"nosys"
+					]
+				},
+				"path" : "/home/zlz/aarch64-none-elf/bin/aarch64-none-elf-gcc",
+				"version" : "11.2.1"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

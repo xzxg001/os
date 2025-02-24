@@ -1,0 +1,225 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bsp/CMakeFiles/bsp.dir/hwi_init.c.obj"
+		},
+		{
+			"path" : "bsp/CMakeFiles/bsp.dir/timer.c.obj"
+		},
+		{
+			"path" : "bsp/CMakeFiles/bsp.dir/start.S.obj"
+		},
+		{
+			"path" : "bsp/CMakeFiles/bsp.dir/prt_reset_vector.S.obj"
+		},
+		{
+			"path" : "bsp/CMakeFiles/bsp.dir/print.c.obj"
+		},
+		{
+			"path" : "bsp/CMakeFiles/bsp.dir/vsnprintf_s.c.obj"
+		},
+		{
+			"path" : "bsp/CMakeFiles/bsp.dir/prt_vector.S.obj"
+		},
+		{
+			"path" : "bsp/CMakeFiles/bsp.dir/prt_exc.c.obj"
+		},
+		{
+			"path" : "bsp/CMakeFiles/bsp.dir/mmu.c.obj"
+		},
+		{
+			"path" : "bsp/CMakeFiles/bsp.dir/cache_asm.S.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"bsp/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Os   -Wformat-signedness    -Wl,--build-id=none   -fno-PIE -fno-PIE --specs=nosys.specs -fno-builtin -fno-dwarf2-cfi-asm -fomit-frame-pointer -fzero-initialized-in-bss -fdollars-in-identifiers -ffunction-sections -fdata-sections -fno-aggressive-loop-optimizations -fno-optimize-strlen -fno-schedule-insns -fno-inline-small-functions -fno-inline-functions-called-once -fno-strict-aliasing -finline-limit=20  -mlittle-endian -nostartfiles -funwind-tables  -g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/zlz/lab9/src/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/zlz/lab9/src/bsp"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				4,
+				5,
+				7,
+				8
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Os   -Wformat-signedness    -Wl,--build-id=none   -fno-PIE -fno-PIE --specs=nosys.specs -fno-builtin -fno-dwarf2-cfi-asm -fomit-frame-pointer -fzero-initialized-in-bss -fdollars-in-identifiers -ffunction-sections -fdata-sections -fno-aggressive-loop-optimizations -fno-optimize-strlen -fno-schedule-insns -fno-inline-small-functions -fno-inline-functions-called-once -fno-strict-aliasing -finline-limit=20  -mlittle-endian -nostartfiles -funwind-tables  -g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/zlz/lab9/src/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/zlz/lab9/src/bsp"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				6,
+				9
+			]
+		}
+	],
+	"id" : "bsp::@96b238adef3af577cb54",
+	"name" : "bsp",
+	"paths" : 
+	{
+		"build" : "bsp",
+		"source" : "bsp"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				4,
+				5,
+				7,
+				8
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				6,
+				9
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "bsp/hwi_init.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "bsp/timer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "bsp/start.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "bsp/prt_reset_vector.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "bsp/print.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "bsp/vsnprintf_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "bsp/prt_vector.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "bsp/prt_exc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "bsp/mmu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "bsp/cache_asm.S",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

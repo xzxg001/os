@@ -1,0 +1,6 @@
+/home/zlz/lab4/build/CMakeFiles/miniEuler.dir
+/home/zlz/lab4/build/CMakeFiles/edit_cache.dir
+/home/zlz/lab4/build/CMakeFiles/rebuild_cache.dir
+/home/zlz/lab4/build/bsp/CMakeFiles/bsp.dir
+/home/zlz/lab4/build/bsp/CMakeFiles/edit_cache.dir
+/home/zlz/lab4/build/bsp/CMakeFiles/rebuild_cache.dir

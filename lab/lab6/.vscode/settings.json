@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "prt_typedef.h": "c",
+        "os_attr_armv8_external.h": "c",
+        "os_exc_armv8.h": "c",
+        "prt_task_external.h": "c",
+        "os_cpu_armv8_external.h": "c"
+    }
+}

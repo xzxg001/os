@@ -1,0 +1,129 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "bsp",
+					"jsonFile" : "directory-bsp-Debug-ddcbaa6fe01317611fd8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "bsp",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "kernel",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-kernel-Debug-63291c6cc366f65a85d4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "kernel"
+				},
+				{
+					"build" : "kernel/tick",
+					"jsonFile" : "directory-kernel.tick-Debug-50ed175ff123a202b031.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "kernel/tick",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "miniEuler",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "bsp::@96b238adef3af577cb54",
+					"jsonFile" : "target-bsp-Debug-c85e55c99157fbe1448d.json",
+					"name" : "bsp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "miniEuler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-miniEuler-Debug-4925553ffa3b616d7096.json",
+					"name" : "miniEuler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "tick::@3e0872671b72bd1d73c4",
+					"jsonFile" : "target-tick-Debug-3eab0267254dc1460818.json",
+					"name" : "tick",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zlz/lab5/build",
+		"source" : "/home/zlz/lab5/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

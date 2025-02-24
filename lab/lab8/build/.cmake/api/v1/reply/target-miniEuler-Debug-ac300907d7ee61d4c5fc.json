@@ -1,0 +1,252 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "miniEuler"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Os   -Wformat-signedness    -Wl,--build-id=none   -fno-PIE -fno-PIE --specs=nosys.specs -fno-builtin -fno-dwarf2-cfi-asm -fomit-frame-pointer -fzero-initialized-in-bss -fdollars-in-identifiers -ffunction-sections -fdata-sections -fno-aggressive-loop-optimizations -fno-optimize-strlen -fno-schedule-insns -fno-inline-small-functions -fno-inline-functions-called-once -fno-strict-aliasing -finline-limit=20  -mlittle-endian -nostartfiles -funwind-tables  -g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/zlz/lab8/src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/zlz/lab8/src/bsp"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "bsp::@96b238adef3af577cb54"
+		},
+		{
+			"id" : "tick::@3e0872671b72bd1d73c4"
+		},
+		{
+			"id" : "sched::@df7c2660b2f5d98e9e82"
+		},
+		{
+			"id" : "task::@6029d7a385478d73fd4b"
+		},
+		{
+			"id" : "sem::@0acb9a5a8424987f72d7"
+		}
+	],
+	"id" : "miniEuler::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Os   -Wformat-signedness    -Wl,--build-id=none   -fno-PIE -fno-PIE --specs=nosys.specs -fno-builtin -fno-dwarf2-cfi-asm -fomit-frame-pointer -fzero-initialized-in-bss -fdollars-in-identifiers -ffunction-sections -fdata-sections -fno-aggressive-loop-optimizations -fno-optimize-strlen -fno-schedule-insns -fno-inline-small-functions -fno-inline-functions-called-once -fno-strict-aliasing -finline-limit=20  -mlittle-endian -nostartfiles -funwind-tables  -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-T /home/zlz/lab8/src/aarch64-qemu.ld",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "miniEuler",
+	"nameOnDisk" : "miniEuler",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/zlz/lab8/build/bsp/CMakeFiles/bsp.dir/hwi_init.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/zlz/lab8/build/bsp/CMakeFiles/bsp.dir/timer.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/zlz/lab8/build/bsp/CMakeFiles/bsp.dir/start.S.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/zlz/lab8/build/bsp/CMakeFiles/bsp.dir/prt_reset_vector.S.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/zlz/lab8/build/bsp/CMakeFiles/bsp.dir/print.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/zlz/lab8/build/bsp/CMakeFiles/bsp.dir/vsnprintf_s.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/zlz/lab8/build/bsp/CMakeFiles/bsp.dir/prt_vector.S.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/zlz/lab8/build/bsp/CMakeFiles/bsp.dir/prt_exc.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/zlz/lab8/build/bsp/CMakeFiles/bsp.dir/mmu.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/zlz/lab8/build/bsp/CMakeFiles/bsp.dir/cache_asm.S.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/zlz/lab8/build/kernel/tick/CMakeFiles/tick.dir/prt_tick.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/zlz/lab8/build/kernel/task/CMakeFiles/task.dir/prt_sys.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/zlz/lab8/build/kernel/task/CMakeFiles/task.dir/prt_task.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/zlz/lab8/build/kernel/task/CMakeFiles/task.dir/prt_task_init.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/zlz/lab8/build/kernel/sched/CMakeFiles/sched.dir/prt_sched_single.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/zlz/lab8/build/kernel/sem/CMakeFiles/sem.dir/prt_sem_init.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/zlz/lab8/build/kernel/sem/CMakeFiles/sem.dir/prt_sem.c.obj",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

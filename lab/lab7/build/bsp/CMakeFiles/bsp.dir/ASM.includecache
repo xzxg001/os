@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zlz/lab7/src/bsp/prt_reset_vector.S
+
+/home/zlz/lab7/src/bsp/prt_vector.S
+
+/home/zlz/lab7/src/bsp/start.S
+

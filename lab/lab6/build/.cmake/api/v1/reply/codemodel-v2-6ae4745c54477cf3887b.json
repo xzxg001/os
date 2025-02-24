@@ -1,0 +1,179 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "bsp",
+					"jsonFile" : "directory-bsp-Debug-ddcbaa6fe01317611fd8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "bsp",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "kernel",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-kernel-Debug-63291c6cc366f65a85d4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "kernel"
+				},
+				{
+					"build" : "kernel/tick",
+					"jsonFile" : "directory-kernel.tick-Debug-50ed175ff123a202b031.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "kernel/tick",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "kernel/sched",
+					"jsonFile" : "directory-kernel.sched-Debug-7dd72fa4a64a8cce4384.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "kernel/sched",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "kernel/task",
+					"jsonFile" : "directory-kernel.task-Debug-0dc386589f6c697acf63.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "kernel/task",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "miniEuler",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "bsp::@96b238adef3af577cb54",
+					"jsonFile" : "target-bsp-Debug-ea23621ae500afd5c019.json",
+					"name" : "bsp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "miniEuler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-miniEuler-Debug-2356f6cea18fce5bf818.json",
+					"name" : "miniEuler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "sched::@df7c2660b2f5d98e9e82",
+					"jsonFile" : "target-sched-Debug-98682195a901c9217a08.json",
+					"name" : "sched",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "task::@6029d7a385478d73fd4b",
+					"jsonFile" : "target-task-Debug-bc68c2af809808f08245.json",
+					"name" : "task",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "tick::@3e0872671b72bd1d73c4",
+					"jsonFile" : "target-tick-Debug-a4c4cbd665b1ded4a246.json",
+					"name" : "tick",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zlz/lab6-z/build",
+		"source" : "/home/zlz/lab6-z/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

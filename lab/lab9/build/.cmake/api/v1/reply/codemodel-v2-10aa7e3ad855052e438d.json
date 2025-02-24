@@ -1,0 +1,229 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						7
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "bsp",
+					"jsonFile" : "directory-bsp-Debug-ddcbaa6fe01317611fd8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "bsp",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "kernel",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-kernel-Debug-63291c6cc366f65a85d4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "kernel"
+				},
+				{
+					"build" : "kernel/tick",
+					"jsonFile" : "directory-kernel.tick-Debug-50ed175ff123a202b031.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "kernel/tick",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "kernel/sched",
+					"jsonFile" : "directory-kernel.sched-Debug-7dd72fa4a64a8cce4384.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "kernel/sched",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "kernel/task",
+					"jsonFile" : "directory-kernel.task-Debug-0dc386589f6c697acf63.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "kernel/task",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "kernel/sem",
+					"jsonFile" : "directory-kernel.sem-Debug-538999befd7c8e6672e9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "kernel/sem",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "shell",
+					"jsonFile" : "directory-shell-Debug-f8c399f788aae55b4a4b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "shell",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "miniEuler",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "bsp::@96b238adef3af577cb54",
+					"jsonFile" : "target-bsp-Debug-c549622aae0307379686.json",
+					"name" : "bsp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "miniEuler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-miniEuler-Debug-20d3d01f17d05a65f306.json",
+					"name" : "miniEuler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "sched::@df7c2660b2f5d98e9e82",
+					"jsonFile" : "target-sched-Debug-c31210b0a758f3eef3d5.json",
+					"name" : "sched",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sem::@0acb9a5a8424987f72d7",
+					"jsonFile" : "target-sem-Debug-26ce38cae0f220947a8d.json",
+					"name" : "sem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "shell::@1853d830bb945de99790",
+					"jsonFile" : "target-shell-Debug-1215c107240493d98dbc.json",
+					"name" : "shell",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "task::@6029d7a385478d73fd4b",
+					"jsonFile" : "target-task-Debug-4178a966ce8b04137c2d.json",
+					"name" : "task",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "tick::@3e0872671b72bd1d73c4",
+					"jsonFile" : "target-tick-Debug-a113ffacd21eab1b9516.json",
+					"name" : "tick",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zlz/lab9/build",
+		"source" : "/home/zlz/lab9/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
